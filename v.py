@@ -1321,4 +1321,5 @@ async def change_message():
     await client.change_presence(activity=discord.Game(next(status)))
 
 
-client.run(token)
+eccess_token = os.environ["BOT_TOKEN"]
+client.run(eccess_token)
